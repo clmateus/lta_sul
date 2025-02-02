@@ -41,6 +41,10 @@ header li a {
     align-items: center;
 }
 
+nav ul li:first-child {
+    margin-right: 18px;
+}
+
 body {
     background-color: #0F1519;
     color: #fff;
@@ -49,4 +53,55 @@ body {
 
 section .container {
     align-items: flex-start;
+}
+
+#about .container img {
+    height: 400px;
+}
+
+#about .container {
+    margin-top: 24px;
+}
+
+#about > div > div > h2 {
+    margin-bottom: 12px;
+}
+
+#about div div p {
+    margin-bottom: 8px;
+}
+
+#teams .container {
+    margin-top: 32px;
+    flex-direction: column;
+}
+
+#teams .container h2 {
+    margin: 0 auto 18px;
+}
+
+.team-list ul li{
+    list-style-type: none;
+}
+
+.team-list ul li img {
+    width: 52px;
+    margin-right: 18px;
+}
+
+.social-links {
+    display: inline;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    list-style-type: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
 }
