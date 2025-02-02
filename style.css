@@ -90,7 +90,7 @@ section .container {
 }
 
 .social-links {
-    display: inline;
+    display: flex;
 }
 
 .social-links img {
@@ -98,10 +98,25 @@ section .container {
 }
 
 .social-links li {
+    margin-right: 8px;
     list-style-type: none;
+}
+
+#contact {
+    background-color: #fff;
+    color:#0F1519;
+}
+
+#contact .container {
+    margin-top: 24px;
+    display: block;
 }
 
 form {
     display: flex;
     flex-direction: column;
+}
+
+.contact-methods {
+    display: flex;
 }
