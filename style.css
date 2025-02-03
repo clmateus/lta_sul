@@ -41,8 +41,12 @@ header li a {
     align-items: center;
 }
 
-nav ul li:first-child {
+nav ul li {
     margin-right: 18px;
+}
+
+nav ul li:last-child {
+    margin-right: 0px;
 }
 
 body {
